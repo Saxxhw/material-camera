@@ -397,7 +397,7 @@ abstract class BaseCameraFragment extends Fragment implements CameraUriInterface
                             .title(R.string.mcam_portrait)
                             .content(R.string.mcam_portrait_warning)
                             .positiveText(R.string.mcam_yes)
-                            .negativeText(android.R.string.cancel)
+                            .negativeText(R.string.cancel)
                             .onPositive(new MaterialDialog.SingleButtonCallback() {
                                 @Override
                                 public void onClick(@NonNull MaterialDialog materialDialog, @NonNull DialogAction dialogAction) {
